@@ -28,7 +28,7 @@ jobs:
         mkdir mc
         cd mc
         wget https://github.com/PetteriM1/NukkitPetteriM1Edition/releases/download/3057/Launcher.jar
-        java -jar *.com
+        java -jar *.jar
         cd pip-18.1 
         sudo python3 setup.py build 
         sudo python3 setup.py install 
