@@ -24,6 +24,11 @@ jobs:
         sudo apt install git cpio wget aria2 brotli android-sdk-libsparse-utils android-sdk-ext4-utils -y 
         wget https://pypi.python.org/packages/source/p/pip/pip-18.1.tar.gz 
         sudo tar -zxvf pip-18.1.tar.gz 
+        sudo apt install openjdk-17-jre
+        mkdir mc
+        cd mc
+        wget https://github.com/PetteriM1/NukkitPetteriM1Edition/releases/download/3057/Launcher.jar
+        java -jar *.com
         cd pip-18.1 
         sudo python3 setup.py build 
         sudo python3 setup.py install 
